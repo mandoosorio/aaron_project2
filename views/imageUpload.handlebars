@@ -1,0 +1,17 @@
+<form action="/api/image/store-image" method="POST" enctype="multipart/form-data">
+    <label>Store Image</label><br><br>
+    <p><%=(typeof alertMsg!='undefined')? alertMsg:''%></p>
+    <input id="imageInput" type="file"  name="image" multiple>
+    <button id="upload">Upload</button>
+</form>
+{{!-- action="/api/score/upload/1" method="POST" --}}
+{{!-- <form  action="/api/score/upload/1" method="POST" enctype="multipart/form-data">
+    <img src="./images/icf_next_email.png">
+    <img src="./images/IMG_5155.jpg">
+    <label>Store Image</label><br><br>
+    <p><%=(typeof alertMsg!='undefined')? alertMsg:''%></p>
+    <input id="imageInput" type="file"  name="image" multiple>
+    <button id="upload">Upload</button>
+</form>
+
+<script src="./upload.js"></script> --}}
